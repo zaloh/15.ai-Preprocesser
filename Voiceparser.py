@@ -3,11 +3,6 @@ import numpy as np
 import os
 import sys
 import PySimpleGUI as sg
-import webbrowser
-
-
-def callback(url):
-    webbrowser.open_new(url)
 
 def removeTrailingN (dataset):
     cleandata = []
